@@ -108,7 +108,7 @@ function Carousal() {
                 {/* Mobile */}
                 <div className='d-lg-none mt-3'>
                     <div className='row d-flex justify-content-center align-items-center'>
-                        <ReturnBook booky={books[3]} key={books[3].id} />
+                       {books[0] ? <ReturnBook booky={books[0]} key={books[0].id} : <></> } />
                     </div>
                 </div>
                 <div className='homepage-carousel-title mt-3'>
