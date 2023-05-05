@@ -87,7 +87,7 @@ function Carousal() {
                         </div>
                         <div className='carousel-item'>
                             <div className='row d-flex justify-content-center align-items-center'>
-                                {books.slice(6, 9).map(book => (
+                                {books.slice(3, 6).map(book => (
                                     <ReturnBook booky={book} key={book.id} />
                                 ))}
                             </div>
@@ -108,7 +108,7 @@ function Carousal() {
                 {/* Mobile */}
                 <div className='d-lg-none mt-3'>
                     <div className='row d-flex justify-content-center align-items-center'>
-                        <ReturnBook booky={books[7]} key={books[7].id} />
+                        <ReturnBook booky={books[3]} key={books[3].id} />
                     </div>
                 </div>
                 <div className='homepage-carousel-title mt-3'>
